@@ -97,7 +97,7 @@
           }
           if (document.addEventListener) {
             document.addEventListener("keyup", KeyUpFunc);
-          } else if (document.addEventListener) {
+          } else if (document.addAttachEvent) {
             document.attachEvent("onkeyup", KeyUpFunc);
           }
       })();
